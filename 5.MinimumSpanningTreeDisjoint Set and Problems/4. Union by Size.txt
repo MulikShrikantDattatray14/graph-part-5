@@ -1,0 +1,4 @@
+Union by size:
+This is as same as the Union by rank method except this method uses the size to compare the components while connecting. That is why we need a ‘size’ array of size N(no. of nodes) instead of a rank array. The size array will be storing the size for each particular node i.e. size[i] will be the size of the component starting from node i.
+
+Typically, the size of a node refers to the number of nodes that are connected to it.
